@@ -1,0 +1,32 @@
+CRITICAL - 2025-05-17 00:54:18 --> ErrorException: Undefined variable $eventModel
+[Method: GET, Route: editar/8]
+in APPPATH\Controllers\Calendario.php on line 223.
+ 1 APPPATH\Controllers\Calendario.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $eventModel', 'C:\\xampp\\htdocs\\calendario\\app\\Controllers\\Calendario.php', 223)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calendario->editar('8')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendario))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-17 00:58:02 --> Error: Class "App\Controllers\EventoModel" not found
+[Method: GET, Route: certificado/generar/8]
+in APPPATH\Controllers\certificado.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Certificado->generar('8')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificado))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-17 00:59:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "certificado_pdf.php"
+[Method: GET, Route: certificado/generar/8]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('certificado_pdf.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('certificado_pdf', [], true)
+ 3 APPPATH\Controllers\certificado.php(22): view('certificado_pdf', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Certificado->generar('8')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Certificado))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-05-17 01:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

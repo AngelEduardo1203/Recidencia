@@ -1,0 +1,140 @@
+CRITICAL - 2025-04-29 00:25:53 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\EventModel::getEventsInMonth
+[Method: GET, Route: calendario]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Calendario.php(16): CodeIgniter\Model->__call('getEventsInMonth', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calendario->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendario))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 00:26:06 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\EventModel::getEventsInMonth
+[Method: GET, Route: calendario]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Calendario.php(16): CodeIgniter\Model->__call('getEventsInMonth', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calendario->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendario))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 00:34:45 --> ErrorException: Undefined property: App\Controllers\Calendario::$eventoModel
+[Method: GET, Route: calendario]
+in APPPATH\Controllers\Calendario.php on line 17.
+ 1 APPPATH\Controllers\Calendario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Calendario::$eventoModel', 'C:\\xampp\\htdocs\\calendario\\app\\Controllers\\Calendario.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calendario->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendario))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 00:35:05 --> ErrorException: Undefined property: App\Controllers\Calendario::$EventoModel
+[Method: GET, Route: calendario]
+in APPPATH\Controllers\Calendario.php on line 17.
+ 1 APPPATH\Controllers\Calendario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Calendario::$EventoModel', 'C:\\xampp\\htdocs\\calendario\\app\\Controllers\\Calendario.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calendario->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendario))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 00:35:17 --> ErrorException: Undefined property: App\Controllers\Calendario::$EventModel
+[Method: GET, Route: calendario]
+in APPPATH\Controllers\Calendario.php on line 17.
+ 1 APPPATH\Controllers\Calendario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Calendario::$EventModel', 'C:\\xampp\\htdocs\\calendario\\app\\Controllers\\Calendario.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calendario->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendario))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 00:35:45 --> ErrorException: Undefined property: App\Controllers\Calendario::$eventModel
+[Method: GET, Route: calendario]
+in APPPATH\Controllers\Calendario.php on line 17.
+ 1 APPPATH\Controllers\Calendario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Calendario::$eventModel', 'C:\\xampp\\htdocs\\calendario\\app\\Controllers\\Calendario.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calendario->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendario))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 00:36:57 --> ErrorException: Undefined property: App\Controllers\Calendario::$eventModel
+[Method: GET, Route: calendario]
+in APPPATH\Controllers\Calendario.php on line 17.
+ 1 APPPATH\Controllers\Calendario.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Calendario::$eventModel', 'C:\\xampp\\htdocs\\calendario\\app\\Controllers\\Calendario.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calendario->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendario))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 00:37:41 --> ErrorException: Undefined variable $events
+[Method: GET, Route: calendario]
+in APPPATH\Controllers\Calendario.php on line 22.
+ 1 APPPATH\Controllers\Calendario.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $events', 'C:\\xampp\\htdocs\\calendario\\app\\Controllers\\Calendario.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calendario->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendario))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 15:17:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "formulario.php"
+[Method: GET, Route: calendario/formulario]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('formulario', [], true)
+ 3 APPPATH\Controllers\Calendario.php(73): view('formulario')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calendario->formulario()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendario))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 15:17:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "formulario.php"
+[Method: GET, Route: calendario/formulario]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('formulario', [], true)
+ 3 APPPATH\Controllers\Calendario.php(73): view('formulario')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calendario->formulario()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendario))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-29 15:17:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "formulario.php"
+[Method: GET, Route: calendario/formulario]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('formulario.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('formulario', [], true)
+ 3 APPPATH\Controllers\Calendario.php(73): view('formulario')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Calendario->formulario()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calendario))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-29 15:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-29 15:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-29 15:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-29 15:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-29 15:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-29 15:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-29 15:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-29 15:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-29 15:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-29 15:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-29 15:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-29 15:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-29 16:09:45 --> ParseError: Unclosed '{' on line 7
+[Method: POST, Route: calendario/formulario]
+in APPPATH\Controllers\Calendario.php on line 58.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\calendario\\app\\Controllers\\Calendario.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Calendario')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Calendario')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Calendario', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -15,6 +15,7 @@
         "ext-mbstring": "*",
         "dompdf/dompdf": "^3.1",
         "laminas/laminas-escaper": "^2.14",
+        "nesbot/carbon": "*",
         "psr/log": "^3.0"
     },
     "require-dev": {

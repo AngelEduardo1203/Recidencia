@@ -80,11 +80,21 @@
                                 echo "<div class='day-number'>{$day}</div>";
                                 if (isset($eventsByDay[$dateStr])) {
                                     foreach ($eventsByDay[$dateStr] as $ev) {
-                                        $title = esc($ev['title']);
+                                        $title = esc($ev['title']); // Nuevo nombre de campo
                                         $id = esc($ev['id']);
-                                        $url = base_url("/eventoUsuario/{$id}");
+                                        $url = base_url("usuario/evento/{$id}");
                                         $class = "event-color-" . ($id % 10);
-                                        echo "<div class='event {$class}'><a href='{$url}' class='text-decoration-none text-dark'>{$title}</a></div>";
+
+                                        // Mostrar la hora de inicio y duración si deseas
+                                        $hora = (new \DateTime($ev['start']))->format('H:i');
+                                        $duracion = esc($ev['duration']);
+
+                                        echo "<div class='event {$class}'>
+                                                <a href='{$url}' class='text-decoration-none text-dark'>
+                                                    <strong>{$title}</strong><br>
+                                                    <small> Duración: {$duracion}</small>
+                                                </a>
+                                            </div>";
                                     }
                                 }
                                 $day++;

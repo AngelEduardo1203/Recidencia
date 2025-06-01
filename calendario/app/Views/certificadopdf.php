@@ -1,3 +1,30 @@
+<?php
+function fechaEnEspanol($fechaISO) {
+    $timestamp = strtotime($fechaISO);
+
+    $dias = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
+    $meses = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+
+    $dia_semana = $dias[date('w', $timestamp)];
+    $dia = date('d', $timestamp);
+    $mes = $meses[date('n', $timestamp) - 1];
+    $anio = date('Y', $timestamp);
+    $hora = date('g:i A', $timestamp); // 12h con AM/PM
+
+    return ucfirst($dia_semana)." $dia de $mes del $anio a las $hora";
+}
+
+function formatoDuracion($duracion) {
+    $partes = explode(':', $duracion);
+    $horas = ltrim($partes[0], '0');
+    if ($horas === '') {
+        $horas = '0';
+    }
+    $minutos = $partes[1];
+
+    return $horas . ':' . $minutos . ' horas';
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -30,20 +57,23 @@
 
 </head>
 <body>
-    <div class="certificado">
-        
-        <h1>Certificado de Asistencia</h1>  <!-- Título del certificado -->
-        <p>Se certifica que</p>  <!-- Texto introductorio -->        
-        <h2><?= esc($asistente) ?></h2>  <!-- Nombre del asistente -->        
-        <p>asistió al evento:</p> <!-- Texto antes del título del evento -->        
-        <h3><?= esc($evento['title']) ?></h3>  <!-- Nombre del evento -->       
-        <p>Realizado del <?= esc($evento['start']) ?> al <?= esc($evento['end']) ?>.</p>  <!-- Fechas de inicio y fin del evento -->
-        <p>Ubicación: <?= esc($evento['location']) ?></p> <!-- Ubicación del evento -->
-        <br><br><br><!-- Espacio para la firma -->
-        <p>Firma autorizada</p>
-        <hr style="width: 200px; margin: auto;"> <!-- Línea para firma -->
-
-    </div>
+        <div class="certificado">
+            <h1>Certificado de Asistencia</h1>
+            <p>Se certifica que</p>
+            <h2><?= esc($asistente) ?></h2>
+            <p>asistió al evento:</p>
+            <h3><?= esc($evento['title']) ?></h3>
+            <p>
+                Realizado del 
+                <?= fechaEnEspanol($evento['start']) ?> 
+                al 
+                <?= fechaEnEspanol($evento['end']) ?>.
+            </p>
+            <p>Ubicación: <?= esc($evento['location']) ?></p>
+            <br><br><br>
+            <p>Firma autorizada</p>
+            <hr style="width: 200px; margin: auto;">
+        </div>
 </body>
 </html>
 
